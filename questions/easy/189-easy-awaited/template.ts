@@ -1,1 +1,1 @@
-export type Awaited = any
+export type MyAwaited<T> = Awaited<T>
