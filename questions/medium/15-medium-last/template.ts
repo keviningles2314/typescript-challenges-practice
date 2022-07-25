@@ -1,1 +1,1 @@
-export type Last<T extends any[]> = any
+export type Last<T extends any[]> = T extends [...infer X, infer L] ? L : never
